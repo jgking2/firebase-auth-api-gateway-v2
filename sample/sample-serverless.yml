@@ -1,0 +1,32 @@
+service:
+  name: simple-firebase-auth
+
+custom:
+  firebaseName:
+    staging: staging_project_name
+    production: production_project_name
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: ${opt:stage, 'staging'}
+  memorySize: 512
+  firebaseName: ${self:custom.firebaseName.${self:provider.stage}}
+  logRetentionInDays: 1
+  httpApi:
+    authorizers:
+      firebaseJwtAuthorizer:
+        identitySource: $request.header.authorization #Or whatever your header is
+        issuerUrl: https://securetoken.google.com/${self:provider.firebaseName}
+        audience:
+          - ${self:provider.firebaseName}
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /desiredPath
+          method: "*"
+          authorizer:
+            name: firebaseJwtAuthorizer
