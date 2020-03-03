@@ -1,0 +1,109 @@
+{
+    "version": 2,
+    "path": "/sampleFunction",
+    "httpMethod": "POST",
+    "headers": {
+        "Content-Length": "2064",
+        "Content-Type": "application/json",
+        "Host": "apidev.houseque.com",
+        "User-Agent": "",
+        "X-Amzn-Trace-Id": "Root=1-5e53da6d-71b397063f20fe475dd54f9c",
+        "X-Forwarded-For": "210.210.162.231",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-us",
+        "authorization": "[REDACTED]"
+    },
+    "multiValueHeaders": {
+        "Content-Length": [
+            "2064"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Host": [
+            "b3xtl5v8hg.execute-api.us-west-2.amazonaws.com"
+        ],
+        "User-Agent": [
+            "HouseQue/1542174849 CFNetwork/1121.2.1 Darwin/19.2.0"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-5e53da6d-71b397063f20fe475dd54f9c"
+        ],
+        "X-Forwarded-For": [
+            "210.210.162.231"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ],
+        "accept": [
+            "*/*"
+        ],
+        "accept-encoding": [
+            "gzip, deflate, br"
+        ],
+        "accept-language": [
+            "en-us"
+        ],
+        "authorization": [
+            "[REDACTED]"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "requestContext": {
+        "accountId": "accountId",
+        "apiId": "b3xtl5v8hg",
+        "authorizer": {
+            "claims": {
+                "aud": "project_name",
+                "auth_time": "1.582236174e+09",
+                "email": "[REDACTED]",
+                "email_verified": "false",
+                "exp": "1.582557306e+09",
+                "firebase": "map[identities:map[email:[REDACTED] facebook.com:[123456789]] sign_in_provider:facebook.com]",
+                "iat": "1.582553706e+09",
+                "iss": "https://securetoken.google.com/project_name",
+                "name": "Joseph King",
+                "sub": "sameasuserid",
+                "user_id": "firebaseuserid"
+            },
+            "scopes": null
+        },
+        "domainName": "b3xtl5v8hg.execute-api.us-west-2.amazonaws.com",
+        "domainPrefix": "b3xtl5v8hg",
+        "extendedRequestId": "IZ8RLjpBoAMEVJg=",
+        "httpMethod": "POST",
+        "identity": {
+            "accessKey": null,
+            "accountId": null,
+            "caller": null,
+            "cognitoAuthenticationProvider": null,
+            "cognitoAuthenticationType": null,
+            "cognitoIdentityId": null,
+            "cognitoIdentityPoolId": null,
+            "principalOrgId": null,
+            "sourceIp": "000.000.000.000",
+            "user": null,
+            "userAgent": "",
+            "userArn": null
+        },
+        "path": "/sampleFunction",
+        "protocol": "HTTP/1.1",
+        "requestId": "IZ8RLjpBoAMEVJg=",
+        "requestTime": "24/Feb/2020:14:15:09 +0000",
+        "requestTimeEpoch": 1582553709802,
+        "resourceId": null,
+        "resourcePath": "/sampleFunction",
+        "stage": "$default"
+    },
+    "pathParameters": null,
+    "stageVariables": null,
+    "body": "Request body",
+    "isBase64Encoded": false
+}
