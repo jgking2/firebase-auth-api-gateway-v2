@@ -7,8 +7,8 @@
         "Content-Type": "application/json",
         "Host": "apidev.houseque.com",
         "User-Agent": "",
-        "X-Amzn-Trace-Id": "Root=1-5e53da6d-71b397063f20fe475dd54f9c",
-        "X-Forwarded-For": "210.210.162.231",
+        "X-Amzn-Trace-Id": "",
+        "X-Forwarded-For": "0.0.0.0",
         "X-Forwarded-Port": "443",
         "X-Forwarded-Proto": "https",
         "accept": "*/*",
@@ -27,13 +27,13 @@
             "b3xtl5v8hg.execute-api.us-west-2.amazonaws.com"
         ],
         "User-Agent": [
-            "HouseQue/1542174849 CFNetwork/1121.2.1 Darwin/19.2.0"
+            ""
         ],
         "X-Amzn-Trace-Id": [
-            "Root=1-5e53da6d-71b397063f20fe475dd54f9c"
+            ""
         ],
         "X-Forwarded-For": [
-            "210.210.162.231"
+            "0.0.0.0"
         ],
         "X-Forwarded-Port": [
             "443"
@@ -88,7 +88,7 @@
             "cognitoIdentityId": null,
             "cognitoIdentityPoolId": null,
             "principalOrgId": null,
-            "sourceIp": "000.000.000.000",
+            "sourceIp": "0.0.0.0",
             "user": null,
             "userAgent": "",
             "userArn": null
