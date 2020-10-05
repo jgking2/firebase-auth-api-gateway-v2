@@ -1,0 +1,58 @@
+{
+    "version": "2.0",
+    "routeKey": "POST /sampleFunction",
+    "rawPath": "/sampleFunction",
+    "rawQueryString": "",
+    "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-us",
+        "authorization": "REDACTED",
+        "content-length": "2172",
+        "content-type": "application/json",
+        "host": "apidev.houseque.com",
+        "user-agent": "",
+        "x-amzn-trace-id": "",
+        "x-forwarded-for": "0.0.0.0",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+    },
+    "requestContext": {
+        "accountId": "00000000000",
+        "apiId": "identifier",
+        "authorizer": {
+            "jwt": {
+                "claims": {
+                  "aud": "project_name",
+                  "auth_time": "1.582236174e+09",
+                  "email": "[REDACTED]",
+                  "email_verified": "false",
+                  "exp": "1.582557306e+09",
+                  "firebase": "map[identities:map[email:[REDACTED] facebook.com:[123456789]] sign_in_provider:facebook.com]",
+                  "iat": "1.582553706e+09",
+                  "iss": "https://securetoken.google.com/project_name",
+                  "name": "Joseph King",
+                  "sub": "sameasuserid",
+                  "user_id": "firebaseuserid"
+                },
+                "scopes": null
+            }
+        },
+        "domainName": "apidev.houseque.com",
+        "domainPrefix": "apidev",
+        "http": {
+            "method": "POST",
+            "path": "/sampleFunction",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "0.0.0.0",
+            "userAgent": ""
+        },
+        "requestId": "randomid",
+        "routeKey": "POST /sampleFunction",
+        "stage": "$default",
+        "time": "05/Oct/2020:00:18:19 +0000",
+        "timeEpoch": 1601857099774
+    },
+    "body": "{}",
+    "isBase64Encoded": false
+}
